@@ -19,10 +19,6 @@ function getComputerChoice() {
   }
 }
 
-function getHumanChoice() {
-  return prompt("Rock, Paper or Scissors?");
-}
-
 function playGame() {
   function playRound(humanChoice, computerChoice) {
     if (humanChoice === "Rock") {
